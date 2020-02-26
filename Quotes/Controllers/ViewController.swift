@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         }
         let quote = quoteManager.getRandomQuote()
         sender.setTitle("Generate", for: .normal)
-        self.quoteLabel.text = quote.content
+        self.quoteLabel.text = "\"\(quote.content)\""
         self.authorLabel.text = "- \(quote.author), \(quote.year)"
         
     }
@@ -56,7 +56,7 @@ extension ViewController: QuoteManagerDelegate {
             self.activityIndicator.stopAnimating()
             self.generateButton.isEnabled = true
             self.generateButton.setTitle("Generate", for: .normal)
-            self.quoteLabel.text = quote.content
+            self.quoteLabel.text = "\"\(quote.content)\""
             self.authorLabel.text = "- \(quote.author), \(quote.year)"
         }
     }
