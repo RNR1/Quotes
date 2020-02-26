@@ -1,4 +1,4 @@
-[!Quotes Logo](Documentation/Quotes.png) 
+![Quotes Logo](Documentation/Quotes.png?raw=true) 
 #  Quotes
 
 Quotes is a Native iOS app built with Swift for iOS 12+.
@@ -10,10 +10,10 @@ Quotes data provided by QuoteGarden (https://pprathameshmore.github.io/QuoteGard
 ## Screenshots
 
 ### Launch Screen
-[!Launch Screen](Documentation/launch-screen.png)
+![Launch Screen](Documentation/launch-screen.png?raw=true)
 
 ### Main View
 
 the user can click the generate button to generate a random quote
 
-[!Main view](Documentation/main-view.png)
+![Main view](Documentation/main-view.png?raw=true)
