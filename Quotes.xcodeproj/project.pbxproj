@@ -18,6 +18,8 @@
 		B487775E2405F1A20096F205 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B487775D2405F1A20096F205 /* QuoteModel.swift */; };
 		B4BFD22A24068DA600A90203 /* Quotes.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BFD22924068DA600A90203 /* Quotes.png */; };
 		B4BFD2302406AEDE00A90203 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B4BFD22F2406AEDE00A90203 /* README.md */; };
+		B4BFD2332406B0FD00A90203 /* main-view.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BFD2312406B0FD00A90203 /* main-view.png */; };
+		B4BFD2342406B0FD00A90203 /* launch-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BFD2322406B0FD00A90203 /* launch-screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B487775D2405F1A20096F205 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 		B4BFD22924068DA600A90203 /* Quotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quotes.png; sourceTree = "<group>"; };
 		B4BFD22F2406AEDE00A90203 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B4BFD2312406B0FD00A90203 /* main-view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-view.png"; sourceTree = "<group>"; };
+		B4BFD2322406B0FD00A90203 /* launch-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-screen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		B4BFD22824068D6800A90203 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				B4BFD2322406B0FD00A90203 /* launch-screen.png */,
+				B4BFD2312406B0FD00A90203 /* main-view.png */,
 				B4BFD22924068DA600A90203 /* Quotes.png */,
 			);
 			path = Documentation;
@@ -175,8 +181,10 @@
 				B487774F2405E83D0096F205 /* LaunchScreen.storyboard in Resources */,
 				B487774C2405E83D0096F205 /* Assets.xcassets in Resources */,
 				B4BFD2302406AEDE00A90203 /* README.md in Resources */,
+				B4BFD2342406B0FD00A90203 /* launch-screen.png in Resources */,
 				B4BFD22A24068DA600A90203 /* Quotes.png in Resources */,
 				B487774A2405E83D0096F205 /* Main.storyboard in Resources */,
+				B4BFD2332406B0FD00A90203 /* main-view.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
